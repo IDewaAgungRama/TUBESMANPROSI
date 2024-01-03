@@ -15,22 +15,40 @@
 
 <body>
 <div class="login">
-    <div class="kotak"></div>
-        <div class="WelcomeBack">Welcome <br/>Back!</div>
-            <img class="Tel1" style="width: 509px; height: 147px; left: 807px; top: 138px; position: absolute" src="TEL 1.png" />
+    <div class="kotak">
+    </div>
+        <div class="WelcomeBack">Halo, <br/>Telutent!</div>
+            <img class="Tel1" style="width: 509px; height: 147px; left: 807px; top: 138px; position: absolute;" src="TEL 1.png" />
             
                 <button type="Button" class="buttonlogin">
                 <div class="Buttontextlogin">Login</div>
                 </div>
 
-                    <div class="OutlineDisable">
-                    <div class="Buttontextlogin"></div>
-                    </div>
-
-                        <div class="OutlineDisable2"></div>
-                        <div class="TelutenGmailCom">teluten@gmail.com</div>
-                        <div class="passwordtitik">********</div>
+                   
+                    <!-- <div class="OutlineDisable">
+                    </div> -->
                 
+                     <!-- <div class="OutlineDisable2"></div> -->
+                        <form>
+                        <div class="OutlineDisable2">
+                        <input type="password" id="pass" class="passwordinput" name="password" placeholder="Password" required>
+                      
+                            </div>
+                        
+                        </form>
+
+                        <form>
+                        <div class="OutlineDisable">
+                        <input type="text" id="usernameinput" class="usernameinput" name="usernameinput" placeholder="Telutent@gmail.com">
+                        <!-- <input type="email" class="username"  placeholder="Telutent@gmail.com"> -->
+                            </div>
+                        </div>
+                        </form>
+
+
+                        <!-- <div class="passwordtitik">********</div> -->
+                    <div class="Buttontextlogin"></div>
+                    
                             <div class="Username" style="width: 88px; height: 27px; left: 884px; top: 391px; position: absolute; text-align: center"><span style="color: #BDBDBD; font-size: 16px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word">U</span><span style="color: #BDBDBD; font-size: 16px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word">sername</span></div>
                             <div class="WelcomeBackPleaseLoginToYourAccount">Welcome back! Please login to your account.</div>
 

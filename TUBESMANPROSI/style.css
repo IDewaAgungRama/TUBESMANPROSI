@@ -1,87 +1,531 @@
 /* LoginMenu */
 
-login {
-    width: 100%; height: 100%; position: relative; background: white
+.login {
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: white
 }
 .kotak{
-    width: 751px; height: 1085px; left: -51px; top: -20px; position: absolute; background: #CC0303
+    width: 751px; 
+    height: 1085px; 
+    left: -51px; top: -20px; 
+    position: absolute; 
+    background: #CC0303
 }
 
 .WelcomeBack{
-    left: 166px; top: 363px; position: absolute; color: #DADADA; font-size: 78px; font-family: Inter; font-weight: 700; line-height: 61.60px; word-wrap: break-word
+    left: 166px; 
+    top: 363px; 
+    position: absolute; 
+    color: #DADADA; 
+    font-size: 78px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 61.60px; 
+    word-wrap: break-word
 }
 
 .buttonlogin{
-    width: 365px; height: 64px; padding-top: 20px; padding-bottom: 21px; left: 886px; top: 738px; position: absolute; background: #CC0303; border-radius: 8px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex
+    width: 365px; 
+    height: 64px; 
+    padding-top: 20px; 
+    padding-bottom: 21px; 
+    left: 886px; 
+    top: 738px; 
+    position: absolute; 
+    background: #CC0303; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
 }
 
 .Buttontextlogin{
-    text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 700; line-height: 22.40px; word-wrap: break-word
+    text-align: center; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 .OutlineDisable{
-    width: 366px; height: 59px; padding-left: 80px; padding-right: 80px; padding-top: 12.80px; padding-bottom: 5px; left: 883px; top: 433px; position: absolute; border-radius: 8px; overflow: hidden; border: 1px #BDBDBD solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex
+    width: 366px; 
+    height: 59px; 
+    /* padding-left: 80px; 
+    padding-right: 80px;  */
+    padding-top: 12.80px; 
+    padding-bottom: 5px; 
+    left: 883px; 
+    top: 433px; 
+    position: absolute; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    border: 1px #BDBDBD solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex
 }
 
 .OutlineDisable2{
-    width: 366px; height: 59px; padding-left: 80px; padding-right: 80px; padding-top: 12.80px; padding-bottom: 5px; left: 883px; top: 549px; position: absolute; border-radius: 8px; border: 1px #BDBDBD solid
+    width: 366px; 
+    height: 59px; 
+    /* padding-left: 80px; 
+    padding-right: 80px;  */
+    padding-top: 12.80px; 
+    padding-bottom: 5px; 
+    left: 883px; 
+    top: 549px; 
+    position: absolute; 
+    border-radius: 8px; 
+    border: 1px #BDBDBD solid;
+    
+  
 }
 
 .TelutenGmailCom{
-    width: 163px; height: 27px; left: 906px; top: 450px; position: absolute; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word
+    width: 163px; 
+    height: 27px; 
+    left: 906px; 
+    top: 450px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
+
+
 .passwordtitik{
-    width: 70px; height: 27px; left: 913px; top: 567px; position: absolute; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 800; line-height: 22.40px; word-wrap: break-word
+    width: 70px; 
+    height: 27px; 
+    left: 913px; 
+    top: 567px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 800;
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 .WelcomeBackPleaseLoginToYourAccount{
-    width: 278px; height: 52px; left: 884px; top: 300px; position: absolute; color: #AFADAD; font-size: 16px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word
+    width: 278px; 
+    height: 52px; 
+    left: 884px; 
+    top: 300px; 
+    position: absolute; 
+    color: #AFADAD; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 .Password{
-    width: 83px; height: 26px; left: 886px; top: 513px; position: absolute; text-align: center; color: #BDBDBD; font-size: 16px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word
+    width: 83px; 
+    height: 26px; 
+    left: 886px; 
+    top: 513px; 
+    position: absolute; 
+    text-align: center; 
+    color: #BDBDBD; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 .Rectangle2{
-    width: 26px; height: 28px; left: 887px; top: 655px; position: absolute; background: #CC0303; border-radius: 4px
+    width: 26px; 
+    height: 28px; 
+    left: 887px; 
+    top: 655px; 
+    position: absolute; 
+    background: #CC0303; 
+    border-radius: 4px
 }
 
 .IconCheck{
-    width: 18px; height: 19px; position: relative
+    width: 18px; 
+    height: 19px; 
+    position: relative
 }
 .Grid{
-    width: 18px; height: 19px; left: 0px; top: 0px; position: absolute
+    width: 18px; 
+    height: 19px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 .Mask{
-    width: 11.40px; height: 8.87px; left: 3.60px; top: 5.07px; position: absolute; background: #DBDBDB
+    width: 11.40px; 
+    height: 8.87px; 
+    left: 3.60px; 
+    top: 5.07px; 
+    position: absolute; 
+    background: #DBDBDB
 }
 .Mask2{
-    width: 11.40px; height: 8.87px; left: 3.60px; top: 5.07px; position: absolute; background: black
+    width: 11.40px; 
+    height: 8.87px; 
+    left: 3.60px; 
+    top: 5.07px; 
+    position: absolute; 
+    background: black
 }
 
 .Color{
-    width: 18px; height: 19px; left: 0px; top: 0px; position: absolute
+    width: 18px; 
+    height: 19px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 
 .IconFillAccent{
-    width: 18px; height: 19px; left: 0px; top: 0px; position: absolute; background: #DBDBDB
+    width: 18px; 
+    height: 19px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #DBDBDB
 }
 
 .RememberMe{
-    width: 92px; height: 27px; left: 927px; top: 655px; position: absolute; text-align: center; color: black; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word
+    width: 92px; 
+    height: 27px; 
+    left: 927px; 
+    top: 655px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 .ForgotPassword{
-    width: 114px; height: 27px; left: 1135px; top: 654px; position: absolute; text-align: center; color: #bdbdbd; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word
+    width: 114px; 
+    height: 27px; 
+    left: 1135px; 
+    top: 654px; 
+    position: absolute; 
+    text-align: center; 
+    color: #bdbdbd; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 22.40px; 
+    word-wrap: break-word
 }
 
 
 
 
 /* HOMEPAGE */
-body {
+.body {
     background-color: #CC0303; 
 }
 .kotakfitur{
-    width: 412px; height: 360px; left: 368px; top: 1381px; position: absolute; background: #F7F6F5; box-shadow: 4px 4px 24px 1px rgba(130, 130, 130, 0.60); border-radius: 12px; z-index: 500
+    width: 412px; 
+    height: 360px; 
+    left: 368px; 
+    top: 1381px; 
+    position: absolute; 
+    background: #F7F6F5;
+    box-shadow: 4px 4px 24px 1px rgba(130, 130, 130, 0.60); 
+    border-radius: 12px
+}
+.kotakfitur2{
+    width: 412px; 
+    height: 360px; 
+    left: 824px; 
+    top: 1793px; 
+    position: absolute; 
+    background: #F7F6F5; 
+    box-shadow: 4px 4px 24px 1px rgba(130, 130, 130, 0.60); 
+    border-radius: 12px
+}
+.kotakfitur3{
+    width: 412px; 
+    height: 360px; 
+    left: 368px; 
+    top: 1793px; 
+    position: absolute; 
+    background: #F7F6F5; 
+    box-shadow: 4px 4px 24px 1px rgba(130, 130, 130, 0.60); 
+    border-radius: 12px
+}
+.kotakfitur4{
+    width: 412px; 
+    height: 360px; 
+    left: 824px; 
+    top: 1381px; 
+    position: absolute; 
+    background: #F7F6F5; 
+    box-shadow: 4px 4px 24px 1px rgba(130, 130, 130, 0.60); 
+    border-radius: 12px
+}
+.Rectangle3{
+    width: 1396px; 
+    height: 87px; 
+    left: 60px; 
+    top: 50px; 
+    position: fixed; 
+    opacity: 0.65; 
+    background: #F7F6F5; 
+    box-shadow: 4px 4px 24px 1px rgba(151, 151, 151, 0.65); 
+    border-radius: 10pxz; 
+    z-index: 1000
+}
+
+.GreetingsTelkomAdmins{
+    width: 423px; 
+    left: 78px; 
+    top: 374px; 
+    position: absolute; 
+    color: #F7F6F5; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 800; 
+    line-height: 52.80px; 
+    word-wrap: break-word
+}
+
+.YourJourneyAtTeluten{
+    width: 459px; 
+    left: 85px; 
+    top: 522px; 
+    position: absolute; 
+    color: #F7F6F5; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 35.20px; 
+    word-wrap: break-word
+}
+
+.WhatSOnYourAgenda{
+    left: 545px; 
+    top: 1231px; 
+    position: absolute; 
+    color: #F7F6F5; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 800; 
+    line-height: 52.80px; 
+    word-wrap: break-word
+}
+
+.Location{
+    left: 428px; 
+    top: 1950px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 35.20px; 
+    word-wrap: break-word
+}
+.TenantData{
+    left: 478px; 
+    top: 1523px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 35.20px; 
+    word-wrap: break-word
+}
+.Streamline{
+    width: 313px; 
+    left: 423px; 
+    top: 1576px; 
+    position: absolute; 
+    color: #092C4C; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    line-height: 22px; 
+    word-wrap: break-word
+}
+
+.EnhanceTenant{
+    width: 335px; 
+    left: 421px; 
+    top: 2005px; 
+    position: absolute; 
+    color: #092C4C; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    line-height: 22px; 
+    word-wrap: break-word
+}
+.FinancialDashboard{
+    left: 871px; 
+    top: 1950px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 35.20px; 
+    word-wrap: break-word
+}
+.TakeFinancial{
+    width: 321px; 
+    left: 874px; 
+    top: 2005px; 
+    position: absolute; 
+    color: #092C4C; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    line-height: 22px; 
+    word-wrap: break-word
+}
+
+.TenantContract{
+    left: 913px; 
+    top: 1523px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 35.20px; 
+    word-wrap: break-word
+}
+
+.Effortlessly{
+    width: 343px; 
+    left: 878px; 
+    top: 1576px; 
+    position: absolute; 
+    color: #092C4C; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    line-height: 22px; 
+    word-wrap: break-word
+}
+
+
+.backgroundforgetpass{
+    width: 100%; 
+    height: 100%; 
+    background: #CC0303
+}
+
+
+
+form.username{
+    display: grid;
+    grid-template-columns: 6fr;
+    gap: 10px;
+}
+.usernameinput[type="text"] {
+    width: 366px;
+    position: relative;
+    left: -1px; /* Adjust this value as needed */
+    padding-left: 20px; 
+    padding-right: 0px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 8px
+}
+
+form.password{
+    display: grid;
+    grid-template-columns: 6fr;
+    gap: 10px;
+}
+.passwordinput[type="password"] {
+    width: 366px;
+    position: relative;
+    left: -1px; /* Adjust this value as needed */
+    padding-left: 20px; 
+    padding-right: 0px;
+    margin-top: -15px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 8px
+}   
+
+
+/* DATA TENANT */
+.DataTenant{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F7F6F5
+}
+
+.SidebarOpen{
+    width: 260px; 
+    height: 1024px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-right: 1px rgba(0, 0, 0, 0.10) solid
+}
+
+.Profiltenant{
+    width: 208px; 
+    left: 24px; 
+    top: 24px; 
+    position: absolute; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 12px; 
+    display: inline-flex
+}
+
+
+/* LOKASI */
+.InformasiLokasiDanFasilitas{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F7F6F5
+}
+.SidebarOpen{
+    width: 260px; 
+    height: 1024px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-right: 1px rgba(0, 0, 0, 0.10) solid
+}
+.Rectangle5999{
+    width: 1184px; 
+    height: 152px; 
+    left: 260px; 
+    top: -48px; 
+    position: absolute; 
+    background: #CC0303
 }
